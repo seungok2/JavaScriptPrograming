@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<script type = "text/javascript">
+			
+			var var1 = 10;
+			
+			function fun1(){
+				//로컬 변수
+				var var2 = 20;
+				
+				if(true){
+					//로컬 변수		- 블록에서는 로컬이 없음(함수 안에서는 사용 가능)
+					var var3= 30;
+					console.log("var1: " + var1);
+					console.log("var2: " + var2);
+					console.log("var3: " + var3);
+					
+				}
+				
+				console.log("var1: " + var1);
+				console.log("var2: " + var2);
+				console.log("var3: " + var3);
+				
+			}
+			
+			console.log("var1: " + var1);
+			
+			fun1();
+		</script>
+		
+		
+		
+		</head>
+		<body>
+
+</body>
+</html>
